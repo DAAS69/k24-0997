@@ -1,2 +1,6 @@
 # k24-0997
-CL1002 Programming Fundamentals Lab
+
+Hi I am saad Tauseef; currently studying BsCs from fast university.
+Thanks
+
+
