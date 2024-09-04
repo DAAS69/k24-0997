@@ -1,0 +1,44 @@
+PSUEDOCODE QUESIONS	
+
+Q)Find the maximum number in any of three variables.
+
+Start
+print "please write 3 numbers"
+input num1,num2,num3
+if 	(num1 > num2) AND (num1 > num3)
+   	print "num1 is greatest"
+	end
+Elseif 	(num2 > num1) AND (num2 > num3)
+   	print "num2 is greatest"
+	end
+Elseif 	(num3 > num1) AND (num3 > num2)
+   	print "num3 is greatest"
+	end
+
+
+Q) Take three variables as input and add them without using the + operator (Use your head for this)
+
+Start
+print "please write 3 numbers"
+input num1,num2,num3
+sum = num1 ADD num2 ADD num3
+print sum
+end
+
+Q) Create a small calculator which only does ‘+’ or ‘-‘Operations. (Hint: Take three variable inputs with one being used for the operator)
+
+Start
+print "please write 2 numbers *Note if the numbers are not same then your bigger number should be num1*"
+input num1,num2
+print "do you wanna add or subtract these numbers? type "+" for addition or "-" for subtraction"
+input operator
+if	operator == +
+	sum = num1 + num2
+	print sum
+	add
+Elseif	operator == -
+	difference = num1 - num2
+	print difference
+end
+
+

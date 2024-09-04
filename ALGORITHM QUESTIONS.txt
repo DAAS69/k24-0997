@@ -1,0 +1,49 @@
+ALGORITHM QUESTIONS
+
+Q) Implement an algorithm for determining if an Nth is a divisor of an n Number (i.e. 2 is a divisor of 6). If so, determine if it’s an even number or odd number as well.
+
+ask user for 2 numbers where n is the number to be divided and Nth is the number which we will use to divide n
+use modulus operator between n and Nth and check the remainder
+if the remainder is 0 then Nth is the divisor of n
+also if only the remainder is 0 
+use modulus operator again but this time between n and 2
+if the remainder is still 0 then the number is even
+else the number is odd
+
+
+Q) Implement an algorithm where the user enters a number, and an appropriate month is displayed.
+
+set 1 for January
+set 2 for February
+set 3 for march
+set 4 for April
+set 5 for May
+set 6 for June
+set 7 for July
+set 8 for august
+set 9 for September
+set 10 for October
+set 11 for November
+set 12 for December
+ask user for a number from 1 to 12
+check the input number
+if the number matches the one in data then print its respective month
+else ask user to input another number between 1 to 12
+
+Q) Implement an algorithm for making a simple calculator with all the operators (+,-,*,/,%)
+
+set + for addition
+set - for subtraction
+set * for multiplication
+set / for division
+set % for remainder
+ask user for 2 numbers
+ask user for the operation to do on that number
+apply the following operation on the numbers
+display the results to the user
+
+
+
+
+
+ 
