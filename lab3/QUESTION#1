@@ -1,0 +1,2 @@
+the integer data type can only store values ranging from from -2147483648 to 2147483647. 
+the assigned value in following program exceeds this range thats why it is causing errors.
