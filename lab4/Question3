@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() {
+char operation;
+int num1,num2;
+printf("please enter 2 numbers\n");
+scanf(" %d  %d",&num1,&num2);
+printf("please enter the operation you wanna perform: '+' or '-' or '*' or '/' ");
+scanf(" %c", &operation);
+switch (operation) {
+case '+':
+printf("%d", num1+num2);
+break;
+case '-':
+printf("%d", num1-num2);
+break;
+case '*':
+printf("%d", num1*num2);
+break;
+case '/':
+printf("%d", num1/num2);
+break;
+default:
+printf("please enter a valid operator");
+}
+}
