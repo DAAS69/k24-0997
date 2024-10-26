@@ -33,5 +33,9 @@ int main(){
     
         }
     }
+    if(smallest!=largest){
+            printf("No saddle points present in your matrix");
+    
+    }
 
 }
