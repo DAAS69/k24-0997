@@ -14,4 +14,5 @@ int main(){
 	}
 	printf("the sum of your array is %d",*sum);
 	free(ptr);
+	free(sum);
 }
