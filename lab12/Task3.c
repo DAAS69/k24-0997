@@ -1,11 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 void printarray(int *arr, int n){
-	int i;
+	int i,largest=0;
 	for(i=0;i<n;i++){
+		if(arr[i]>largest){
+			largest = arr[i];
+		}
 		printf("%d ",*(arr + i));
 	}
-	printf("\n");
+	printf("\nlargest: %d\n",largest);
 }
 
 int main(){
