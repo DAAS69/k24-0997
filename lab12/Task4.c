@@ -13,7 +13,7 @@ int main(){
 	char *new;
 	new = (char *)calloc(n , sizeof(char));
     strcpy(new, arr);
-	printf("%s",new);
+	printf("Dynamic array: %s",new);
 	free(new);
 
 }
